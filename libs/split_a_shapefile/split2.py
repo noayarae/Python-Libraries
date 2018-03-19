@@ -4,8 +4,7 @@ Description: This code separate one shapefile in multiple ones by one specific a
 File:        "split.py"
 How to use:
 Input: 1) provide a shapefile to separate
-       2) Shapefile MUST have a field name "cota" with cota values   <-------------
-       3) provide a empty folder where multiple files should be stored
+             
 Output: Multiple files as rows the input file has
 '''
 # ---------------------------------------------------------------------------
