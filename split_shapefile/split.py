@@ -1,7 +1,7 @@
 # Created by:  Efrain Noa
 # "D:\\research\\water_rights\\wr\\code\\split.py"
 '''
-Description: This code separate one shapefile into multiple ones based on 'idx' attribute
+Description: This code separates one shapefile into multiple ones based on 'idx' attribute
 File:        "split.py"
 How to use:
 Input: 1) provide a shapefile to separate
