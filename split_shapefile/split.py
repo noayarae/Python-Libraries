@@ -21,7 +21,7 @@ from arcpy.sa import *
 # Script created to separate one shapefile in multiple ones by one specific attribute
 # Example for a Inputfile called "my_shapefile" and a field called "my_attribute"
 
-def setup_inputs():
+def setup_inputs_manual():
     #Set Input Output variables
     path = "D:\\research\\water_rights\\wr\\code\\input" # CHANGE path
     filename = "qq.shp" # CHANGE filename
@@ -117,7 +117,7 @@ def split_folder(input_file, outDir):
 
 if __name__ == "__main__":
     print "This code separates one shapefile into multiple ones"
-    #list_shpfiles = setup_inputs()
+    #list_shpfiles = setup_inputs_manual()
     list_shpfiles = setup_inputs_toolbox()
 
     print "done ... "
